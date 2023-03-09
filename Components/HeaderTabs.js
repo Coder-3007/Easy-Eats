@@ -4,7 +4,7 @@ import React, { useState } from "react";
 export default function HeaderTabs() {
   const [activeTab, setActiveTab] = useState("Delivery");
   return (
-    <View style={{ marginTop: 35, flexDirection: "row", alignSelf: "center" }}>
+    <View style={{ marginTop: 20, flexDirection: "row", alignSelf: "center" }}>
       <HeaderButton
         text="Delivery"
         btnColor="black"
