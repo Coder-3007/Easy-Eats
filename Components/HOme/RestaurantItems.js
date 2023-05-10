@@ -30,6 +30,15 @@ export const localRestaurants = [
     reviews: 700,
     rating: 4.9,
   },
+  {
+    name: "Pakistani Grill",
+    image_url:
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudCUyMGludGVyaW9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80",
+    categories: ["Desi", "Bar"],
+    price: "$$",
+    reviews: 700,
+    rating: 5.0,
+  },
 ];
 
 export default function RestaurantItems(props) {

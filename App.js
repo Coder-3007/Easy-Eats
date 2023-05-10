@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import Home from "./Screens/Home";
+import * as React from "react";
+import RootNavigation from "./navigation";
 
 export default function App() {
-  return <Home />;
+  return <RootNavigation />;
 }
